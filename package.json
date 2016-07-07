@@ -15,13 +15,16 @@
   ],
   "author": "Kevin Whinnery",
   "license": "MIT",
-  "engines" : { "node" : ">=4.1.0 <5.5.0" },
+  "engines": {
+    "node": ">=4.1.0 <5.5.0"
+  },
   "dependencies": {
     "body-parser": "^1.6.5",
     "express": "^4.8.5",
-    "twilio": "^1.6.0",
+    "jade": "1.7.x",
     "morgan": "^1.2.3",
-    "jade": "1.7.x"
+    "serialport": "^4.0.0",
+    "twilio": "^1.6.0"
   },
   "devDependencies": {
     "tape": "^2.14.0",
